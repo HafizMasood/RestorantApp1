@@ -1,0 +1,20 @@
+{
+  "Resto": [
+    {
+      "id": 1,
+      "name": "Alaziz restorant",
+      "email": "alaz@gmail.com",
+      "address": "Multan raod burewala",
+      "contact": "123456767",
+      "service": "coffi, chy meeet"
+    },
+    {
+      "id": 2,
+      "name": "Alhamd",
+      "email": "hamd@gmail.com",
+      "address": "jamlera",
+      "contact": "45678901",
+      "service": "chy, meet chicken"
+    }
+  ]
+}

@@ -1,10 +1,23 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
 export const environment = {
-  production: false
+  production: false,
+
+  firebaseConfig: {
+    apiKey: "AIzaSyB3_dGgQtfI_V1UILMMVkATpsZaClRzWxo",
+    authDomain: "angular-crud-cdc07.firebaseapp.com",
+    databaseURL: "https://angular-crud-cdc07-default-rtdb.firebaseio.com",
+    projectId: "angular-crud-cdc07",
+    storageBucket: "angular-crud-cdc07.appspot.com",
+    messagingSenderId: "630511458094",
+    appId: "1:630511458094:web:36ac442aaffd1950268cbf"
+
+
+}
 };
+
+
 
 /*
  * For easier debugging in development mode, you can import the following file

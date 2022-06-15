@@ -1,0 +1,51 @@
+<p>food-details works!</p>
+<div class="search">
+    <div class="margin">
+    <h1>Search Foods</h1>
+    <div class="row mt-1">
+        <div class="col-md-5 mx-auto">
+            <div class="input-group">
+                <input class="form-control border rounded-pill" type="search" value="search" id="example-search-input">
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+</div>
+<div class="main">
+<ul>
+    <li *ngFor="let food of foods">
+        <a>
+        <img src="{{food.imageUrl}}" alt="food image">
+        <div class="content">
+            <div class="name">
+                {{food.name}}
+                <span style="float:right;" class="favorite {{food.favorite?'':'not'}} ">♥</span>
+            </div>
+            
+
+            <div class="product-item-footer">
+                <div class="origin">
+                    <span *ngFor="let origin of food.origine">
+                        {{origin}}
+                    </span>
+                </div>
+                <div class="cook-time">
+                    <span>🕥</span>
+                    {{food.cookTime}}
+                </div>
+            </div>
+        <div class="footer">
+            <div class="price">
+                Price: {{food.price}}
+            </div>
+            <div>
+                <button class="btn btn-success">Order</button>
+            </div>
+        </div>
+     </div>
+     
+    </a>
+    </li>
+</ul>
+</div>
